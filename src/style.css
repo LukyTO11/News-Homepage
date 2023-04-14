@@ -221,6 +221,11 @@ hr.line {
         overflow-x: hidden;
     }
 
+    .content-container.blur {
+        overflow: hidden;
+        filter: blur(5px);
+    }
+
     .nav {
         padding: 20px;
         align-items: normal;
@@ -311,6 +316,8 @@ hr.line {
     .news {
         margin: 15px;
         width: 360px;
+        height: 100%;
+        overflow: hidden;
     }
 
     .news-text {
@@ -325,6 +332,8 @@ hr.line {
     .popular-section {
         display: block;
         margin: 15px;
+        height: 100%;
+        overflow: hidden;
     }
 
     .img-pop {
@@ -344,10 +353,12 @@ hr.line {
         margin: 0;
         padding-bottom: 40px;
     }
+
     .second-pop {
         margin: 0;
         padding-bottom: 40px;
     }
+
     .third-pop {
         margin: 0;
         padding-bottom: 40px;

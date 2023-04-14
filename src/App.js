@@ -7,8 +7,10 @@ export default function App() {
     return (
         <div>
             <Navbar />
-            <Home />
-            <Popular/>
+            <div className="content-container">
+                <Home />
+                <Popular />
+            </div>
         </div>
     )
 }
